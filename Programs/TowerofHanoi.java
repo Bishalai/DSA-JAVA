@@ -19,7 +19,7 @@ public class TowerofHanoi {
         tower(n-1,aux,to,from);
     }
 
-    public static void main(){
+    public static void main(String[] args){
         TowerofHanoi toh =  new TowerofHanoi();
 
         Scanner myObj =  new Scanner(System.in);
