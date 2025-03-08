@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class circularqueue {
+public class Circularqueue {
     private int[] queue;
     private final int MAX;
     private int front;
     private int rear;
 
-    public circularqueue(int max){
+    public Circularqueue(int max){
         queue = new int[max];
         MAX = max;
         front=rear=-1;
@@ -67,7 +67,7 @@ public class circularqueue {
 
         int size = myObj.nextInt();
         
-        circularqueue queue = new circularqueue(size);
+        Circularqueue queue = new Circularqueue(size);
         
         menu:
         while(true){

@@ -1,7 +1,7 @@
 import java.util.Stack;
 import java.util.Scanner;
 
-public class infixtopostfix {
+public class InfixToPostfix {
     
     //precedence function
     public int prec(char c){
@@ -63,7 +63,7 @@ public class infixtopostfix {
 
 
     public static void main(String[] args){
-        infixtopostfix ItoP = new infixtopostfix();
+        InfixToPostfix ItoP = new InfixToPostfix();
 
         Scanner myObj = new Scanner(System.in);
 

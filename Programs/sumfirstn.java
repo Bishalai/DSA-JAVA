@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumfirstn {
+public class SumFirstn {
     public int rsum(int num){
         if(num==0){
             return 0;
@@ -20,7 +20,7 @@ public class sumfirstn {
     public static void main(String[] args){
         Scanner myObj = new Scanner(System.in);
         int choice, method;
-        sumfirstn sum = new sumfirstn();
+        SumFirstn sum = new SumFirstn();
         menu:
         while(true){
             System.out.println("Enter 0 to exit:");

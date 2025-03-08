@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
 
     public long rfact(int num){
         if(num==0){
@@ -21,7 +21,7 @@ public class factorial {
     public static void main(String[] args){
         Scanner myObj = new Scanner(System.in);
         int choice, method;
-        factorial fact = new factorial();
+        Factorial fact = new Factorial();
         menu:
         while(true){
             System.out.println("Enter 0 to exit:");

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class factorialtail {
+public class FactorialTail {
 
     public long fact(int num, long res){
         if(num==0){
@@ -12,7 +12,7 @@ public class factorialtail {
     
     public static void main(String[] args){
         Scanner myObj = new Scanner(System.in);
-        factorialtail factt = new factorialtail();
+        FactorialTail factt = new FactorialTail();
 
         System.out.println("Enter number:");
         int num = myObj.nextInt();

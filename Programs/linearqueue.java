@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class linearqueue {
+public class Linearqueue {
     private final int MAX;
     private int[] intArray;
     private int front;
     private int rear;
     
-    public linearqueue(int max){
+    public Linearqueue(int max){
         MAX =max;
         intArray = new int[MAX];
         front = rear = -1;
@@ -65,7 +65,7 @@ public class linearqueue {
 
         int size = myObj.nextInt();
         
-        linearqueue queue = new linearqueue(size);
+        Linearqueue queue = new Linearqueue(size);
         
         menu:
         while(true){

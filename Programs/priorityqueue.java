@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class priorityqueue {
+public class Priorityqueue {
     private final int MAX;
     private int[] intArray;
     private int itemCount;
 
-    public priorityqueue(int size){
+    public Priorityqueue(int size){
         MAX = size;
         intArray = new int[MAX];     
         itemCount = 0;
@@ -70,7 +70,7 @@ public class priorityqueue {
 
         int size = myObj.nextInt();
         
-        priorityqueue queue = new priorityqueue(size);
+        Priorityqueue queue = new Priorityqueue(size);
         
         menu:
         while(true){

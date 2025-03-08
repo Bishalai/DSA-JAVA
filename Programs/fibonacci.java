@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fibonacci {
+public class Fibonacci {
     
     public int rfib(int num){
         if(num==1){
@@ -33,7 +33,7 @@ public class fibonacci {
     public static void main(String[] args){
         Scanner myObj = new Scanner(System.in);
         int choice, method;
-        fibonacci fib = new fibonacci();
+        Fibonacci fib = new Fibonacci();
         menu:
         while(true){
             System.out.println("Enter 0 to exit:");
@@ -51,10 +51,10 @@ public class fibonacci {
                     method = myObj.nextInt();
                     switch (method) {
                         case 0:
-                            System.out.println("The fibonacci number in "+num+" position is "+fib.ifib(num));
+                            System.out.println("The Fibonacci number in "+num+" position is "+fib.ifib(num));
                             break;
                         case 1:
-                            System.err.println("The fibonacci number in "+num+" position is "+fib.rfib(num));
+                            System.err.println("The Fibonacci number in "+num+" position is "+fib.rfib(num));
                             break;
                         default:
                             System.out.println("Enter valid method");
